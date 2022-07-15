@@ -1,0 +1,53 @@
+:root {
+  --primary-color: rgb(219, 122, 3);
+}
+
+body {
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.navigation-links a {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 10px;
+  border-radius: 4px;
+  background-color: blanchedalmond;
+  text-decoration: none;
+}
+
+.croissant {
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.email-link {
+  font-size: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
